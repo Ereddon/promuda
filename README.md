@@ -2,7 +2,7 @@
 
 Promuda is a wireless programmable electronic platform aiming for easy and simple embedded aplication development.
 
-The main target audience for this board are: everyone who has a mobile phone!
+The main target audience for this board are everyone who has a mobile phone!
 
 Promuda is designed to be programmable using a mobile phone. That's it. Just install a code editor and Promuda programmer app, and you are ready to go.
 
@@ -18,8 +18,8 @@ Promuda is designed to be programmable using a mobile phone. That's it. Just ins
 
 ### Write your first code
 
-1. Open your favourite phone code editor
-2. Write your code! a simple hello world would be:
+1. Open your favourite code editor on your mobile phone
+2. Write your code! a simple hello world would be
 
 ```
 import promudaCore
@@ -46,8 +46,8 @@ ws://192.168.43.8:8266
 
 ### Run your first code
 
-1. On your promuda board go to App
-2. It should shows your freshly written app name
+1. On your promuda board menu, go to "App"
+2. It should shows your freshly written app name in the list
 3. Select it --> Run
-4.  Your applicaton will run automatically after the board turned ON
+4. Your applicaton will run automatically after the board turned ON
 5. To go back to Promuda menu, hold "A" button then press "RESET" button.
