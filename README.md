@@ -6,7 +6,7 @@ Promuda is a wireless programmable electronic platform aiming for easy and simpl
 
 The main target audience for this board are everyone who has a mobile phone!
 
-Promuda is designed to be programmable using a mobile phone. That's it. Just install a code editor and Promuda programmer app, and you are ready to go.
+Promuda is designed to be able to programmed using a mobile phone. Just install a code editor and downloader app, and you are ready to go.
 
 ## Getting Started
 
