@@ -1,3 +1,5 @@
+![alt text](https://i.ibb.co/89XCHd2/seratuspersen.png)
+
 # Promuda
 
 Promuda is a wireless programmable electronic platform aiming for easy and simple embedded aplication development.
