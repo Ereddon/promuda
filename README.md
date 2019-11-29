@@ -6,7 +6,17 @@ Promuda is a wireless programmable electronic platform aiming for easy and simpl
 
 The main target audience for this board are everyone who has a mobile phone!
 
-Promuda is designed to be able to programmed using a mobile phone. Just install a code editor and downloader app, and you are ready to go.
+Promuda is designed to be able to programmed using a mobile phone. Just install a code editor and downloader apk, and you are ready to go.
+
+### Our recommended code editor for Android: 
+
+[NotePad Pro](https://play.google.com/store/apps/details?id=com.exapps.notepad&hl=en)
+
+It is the only text editor in playstore with whitespace marking option, which crucial when we works with python! Also no ads and no IAP.
+
+### Application downloader
+
+Download it here [Promuda Programmer](https://github.com/Ereddon/promuda/blob/master/tools/promuda_programmer_v103.apk)
 
 ## Getting Started
 
@@ -53,3 +63,20 @@ ws://192.168.43.8:8266
 3. Select it --> Run
 4. Your applicaton will run automatically after the board turned ON
 5. To go back to Promuda menu, hold "A" button then press "RESET" button.
+
+### Debug your code
+
+If your promuda application caught an exception when running, the backlight will be blinked continuously. Then we need to find out why by debug it.
+
+Oh, we can do that?
+
+Unfortunately there is no debug feature, yet. But you can see the last error/exception from your code by clicking "Get last error" button in the android app.
+
+### Force boot to Promuda menu
+
+Hold "A" button while your Promuda board booted up.
+
+### Repair bricked devices
+
+Although this is rare, but your devices can be bricked. Too many write process to the filesystem will ramp up the risk! To make it minimum to none, avoid any "write to file" process in your application. The recovery process is TBD.
+
