@@ -20,6 +20,7 @@ Promuda is designed to be able to programmed using a mobile phone out of the box
 - Promuda application launcher
 - 8 Digital I/O (selectable through jumper)
 - 1 ADC input (selectable through jumper)
+- Rechargeable 1200mAh li-poly battery (so you can code on the go)
 
 ### Our recommended code editor for Android: 
 
