@@ -2,11 +2,24 @@
 
 # Promuda
 
+![Front View](https://i.ibb.co/TvqhghP/promuda-front.png) 
+
 Promuda is a wireless programmable electronic platform aiming for easy and simple embedded aplication development.
 
-The main target audience for this board are everyone who has a mobile phone!
+The main target audience for this board are everyone who has a mobile phone! No more bulky PC's needed. 
 
-Promuda is designed to be able to programmed using a mobile phone out of the box. It has an application launcher and easy to use wifi manager. Just install a code editor and downloader apk, and you are ready to go.
+Promuda is designed to be able to programmed using a mobile phone out of the box. It has an application launcher and easy to use wifi manager. Just install a code editor and a downloader apk, and you are ready to go.
+
+### Features
+
+- All ESP8266 + Micropython features
+- 4 Way directional button
+- 2 Action button
+- Buzzer
+- 96x68 Monochrome display
+- Promuda application launcher
+- 8 Digital I/O (selectable through jumper)
+- 1 ADC input (selectable through jumper)
 
 ### Our recommended code editor for Android: 
 
@@ -14,9 +27,9 @@ Promuda is designed to be able to programmed using a mobile phone out of the box
 
 It is the only text editor in playstore with whitespace marking option, which crucial when we works with python! Also no ads and no IAP.
 
-### Application downloader
+### Application downloader 
 
-Download it here [Promuda Programmer](https://github.com/Ereddon/promuda/blob/master/tools/promuda_programmer_v103.apk)
+Download it here [Promuda Programmer for Android](https://github.com/Ereddon/promuda/blob/master/tools/promuda_programmer_v103.apk)
 
 ## Getting Started
 
