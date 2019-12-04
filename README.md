@@ -16,7 +16,8 @@ Promuda is designed to be able to programmed using a mobile phone out of the box
 - 4 Way directional button
 - 2 Action button
 - Buzzer
-- 96x68 Monochrome display
+- Tri-color RGB LED
+- 96x68 Monochrome display + backlight
 - Promuda application launcher
 - 8 Digital I/O (selectable through jumper)
 - 1 ADC input (selectable through jumper)
@@ -48,9 +49,9 @@ Download it here [Promuda Programmer for Android](https://github.com/Ereddon/pro
 2. Write your code! a simple hello world would be
 
 ```
-import promudaCore
+from promudaCore import Display as d
 
-promudaCore.Display.printlcd('Hello World!',1,True)
+d.printlcd('Hello World!',1,True)
 ```
 
 3. "Save as" your file with this format: app_<your application name>.py
