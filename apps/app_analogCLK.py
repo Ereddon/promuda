@@ -63,9 +63,12 @@ while True:
  now = utime.localtime()
  if now[5]!=sec:
   sec = now[5]
-  HOUR = getTick((now[3]+(TZ))*5,HHAND_LEN, ctrX, ctrY)
-  MIN = getTick(now[4], MHAND_LEN, ctrX, ctrY)
-  SEC = getTick(now[5], SHAND_LEN, ctrX, ctrY)
+  now_hour = (now[3]+(TZ)) % 12 
+  now_minute = now[4]
+  now_second = now[5]
+  HOUR = getTick(((now_hour)*5)+(now_minute*5/60), HHAND_LEN, ctrX, ctrY)
+  MIN = getTick(now_minute+(now_second/60.0), MHAND_LEN, ctrX, ctrY)
+  SEC = getTick(now_second, SHAND_LEN, ctrX, ctrY)
   sHand.fill(0)
   mHand.fill(0)
   hHand.fill(0)
